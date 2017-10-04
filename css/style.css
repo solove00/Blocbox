@@ -330,6 +330,10 @@ header .hero img {
   margin-top: 30px;
 }
 
+.testimonials .one-fourth.below {
+  margin-top: 20px;
+}
+
 /* FOOTER */
 
 footer {
@@ -366,9 +370,25 @@ footer .logo {
   padding: 2.35em 0;
   margin:0 auto;
   display: block;
+  margin-bottom: auto;
 }
 
 /* Media Queries */
+@media (max-width: 991px) {
+  footer img.logo {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  footer p, footer nav ul {
+    padding-left: 0px;
+  }
+
+  .one-third {
+      margin: 5px;
+      min-height: 5px;
+  }
+}
 
 @media (min-width: 768px) {
   .container {
