@@ -472,7 +472,7 @@ footer .logo {
 }
 
 .left-nav .items {
-  padding: 0 6%;
+  padding: 0;
 }
 
 .left-nav .items p {
@@ -490,7 +490,9 @@ footer .logo {
 
 .left-nav .items ul li {
   list-style-type: none;
-  margin-bottom: 15px;
+  /*margin-bottom: 15px;*/
+  box-sizing: border-box;
+  padding: 10px 20px
 }
 
 .left-nav .items ul li a {
@@ -542,8 +544,8 @@ footer .logo {
   margin-top: 8px;
 }
 
- .left-nav .status a:active{
-  background-color: yellow;
+.left-nav .active:focus-within {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 /* CONTENT */
