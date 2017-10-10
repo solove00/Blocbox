@@ -15,12 +15,14 @@ h2 {
   font-size: 28px;
   font-weight: normal;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 p {
   font-size: 16px;
   line-height: 19px;
   font-weight: 100;
+  text-align: center;
 }
 
 /* GRID */
@@ -337,6 +339,13 @@ header .hero img {
   margin-top: 20px;
 }
 
+/* Call to Action */
+.btn.center {
+  text-align: center;
+  display: block;
+  /*position: relative;*/
+}
+
 /* FOOTER */
 
 footer {
@@ -525,6 +534,7 @@ footer .logo {
   font-size: 12px;
   color: #E2E2E2;
   line-height: 15px;
+  padding: 10px;
 }
 
 .left-nav .items ul {
@@ -583,13 +593,17 @@ footer .logo {
   color: #FFFFFF;
   text-decoration: none;
   text-align: right;
-  float: right;
+  float: left;
   margin-right: 10px;
   margin-top: 8px;
 }
 
 .left-nav .active:focus-within {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.left-nav a:focus{
+  outline: none;
 }
 
 /* CONTENT */
