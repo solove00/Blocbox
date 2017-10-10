@@ -15,14 +15,12 @@ h2 {
   font-size: 28px;
   font-weight: normal;
   margin-bottom: 5px;
-  text-align: center;
 }
 
 p {
   font-size: 16px;
   line-height: 19px;
   font-weight: 100;
-  text-align: center;
 }
 
 /* GRID */
@@ -340,6 +338,9 @@ header .hero img {
 }
 
 /* Call to Action */
+
+.calltoaction h2,p{text-align: center;position: relative;}
+
 .btn.center {
   text-align: center;
   display: block;
