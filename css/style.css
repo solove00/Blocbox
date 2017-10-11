@@ -339,12 +339,8 @@ header .hero img {
 
 /* Call to Action */
 
-.calltoaction h2,p{text-align: center;position: relative;}
-
-.btn.center {
+.calltoaction {
   text-align: center;
-  display: block;
-  /*position: relative;*/
 }
 
 /* FOOTER */
@@ -603,7 +599,7 @@ footer .logo {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.left-nav a:focus{
+.left-nav a:focus {
   outline: none;
 }
 
@@ -688,32 +684,40 @@ footer .logo {
 }
 
 /* Laptops and Desktops */
+
 @media (min-width:992px) {
-   .left-nav {
-     height: 100vh;
-     width:14.66666667%;
-     color:#FFFFFF;
-     background: #34495E;
-     background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
-     float:left;
-     position: fixed;
-     display:block;
-     transform: translate(0,0);
-     -webkit-transform: translate(0,0); /** Chrome & Safari **/
-     -o-transform: translate(0,0); /** Opera **/
-     -moz-transform: translate(0,0); /** Firefox **/
-   }
-   .left-nav.open {
-     width:14.66666667%;
-     transform: translate(0,0);
-     -webkit-transform: translate(0,0); /** Chrome & Safari **/
-     -o-transform: translate(0,0); /** Opera **/
-     -moz-transform: translate(0,0); /** Firefox **/
-   }
-   .hamburger {
-     display:none;
-   }
- }
+  .left-nav {
+    height: 100vh;
+    width: 14.66666667%;
+    color: #FFFFFF;
+    background: #34495E;
+    background-image: linear-gradient(206deg, #5F81A3 0%, #34495E 94%);
+    float: left;
+    position: fixed;
+    display: block;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    /** Chrome & Safari **/
+    -o-transform: translate(0, 0);
+    /** Opera **/
+    -moz-transform: translate(0, 0);
+    /** Firefox **/
+  }
+  .left-nav.open {
+    width: 14.66666667%;
+    transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    /** Chrome & Safari **/
+    -o-transform: translate(0, 0);
+    /** Opera **/
+    -moz-transform: translate(0, 0);
+    /** Firefox **/
+  }
+  .hamburger {
+    display: none;
+  }
+}
+
 @media (min-width:992px) {
   .content {
     padding: 1.5em 1%;
